@@ -1,0 +1,16 @@
+jhack
+http://twitter.com/_jhack
+http://github.com/jhack
+
+revvnc
+Simple shell executable to reverse tunnel a VNC connection to a remote machine.
+
+Designed for remote troubleshooting for friends/family who call you frantically asking for computer advice.
+
+Friend/family member runs executable on their machine, asks to enter an IP address (give them yours) and will create a reverse tunnel to your machine.
+
+INSTRUCTIONS:
+Run executable 'revvnc' file in a terminal.
+User will be prompted for remote username and hostname or IP of remote machine.
+User will need to type 'exit' once logged into the remote machine to close the tunnel. (or by other means)
+User on remote machine will be able to VNC at host 127.0.0.1, on port 5900.

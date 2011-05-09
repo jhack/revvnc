@@ -1,0 +1,19 @@
+#!/bin/sh
+#!/bin/bash
+
+# By jhack
+# http://twitter.com/_jhack
+# http://github.com/jhack
+
+# Executable that asks for an IP address, then creates a reverse VNC connection to said IP address.
+
+remoteMachine=$remoteMachine
+remoteUser=$remoteUser
+
+echo "# revvnc # \n"
+echo "Enter remote username: \c"
+read remoteUser
+echo "Enter hostname or IP address of remote machine: \c"
+read remoteMachine
+
+ssh "$remoteUser"@"$remoteMachine" -R 5900:127.0.0.1:5900
