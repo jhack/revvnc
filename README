@@ -11,6 +11,7 @@ Friend/family member runs executable on their machine, asks to enter an IP addre
 
 INSTRUCTIONS:
 Run executable 'revvnc' file in a terminal.
+(If 'permission denied' error, run 'sudo chmod +x revvnc')
 User will be prompted for remote username and hostname or IP of remote machine.
 User will need to type 'exit' once logged into the remote machine to close the tunnel. (or by other means)
 User on remote machine will be able to VNC at host 127.0.0.1, on port 5900.

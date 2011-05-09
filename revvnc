@@ -10,6 +10,7 @@
 remoteMachine=$remoteMachine
 remoteUser=$remoteUser
 
+clear
 echo "# revvnc # \n"
 echo "Enter remote username: \c"
 read remoteUser
