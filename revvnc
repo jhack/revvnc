@@ -12,6 +12,10 @@ remoteUser=$remoteUser
 
 clear
 echo "# revvnc # \n"
+
+echo "This will create a reverse SSH tunnel on port 5900, a common VNC port."
+echo "When you are finished and want to close the tunnel, type 'exit' on the remote machine.\n"
+
 echo "Enter remote username: \c"
 read remoteUser
 echo "Enter hostname or IP address of remote machine: \c"
